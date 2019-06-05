@@ -9,7 +9,7 @@ public:
 	
 	CData(const char* data);
 	CData(const CData& data);
-	CData&  operator =(CData& data);
+	CData&  operator =(const CData& data);
 	char* GetData();
 	~CData();
 private:
@@ -37,13 +37,13 @@ CData::~CData()
 }
 CData::CData(const CData& data)
 {
-	std::cout << "this is copy construction function" << std::endl;
+	std::cout << "this is copy constructor function" << std::endl;
 	m_data = new char[strlen(data.m_data) + 1];
 	strcpy(m_data, data.m_data);
 }
-CData&  CData::operator =(CData& data)
+CData&  CData::operator =(const CData& data)
 {
-	std::cout << "this is operator overload function" << std::endl;
+	std::cout << "this is assignment operator function" << std::endl;
 	if (&data == this)
 		return *this;
 	delete[] m_data;
@@ -67,6 +67,7 @@ void test1()
 	d3 = d1;//调用运输算符重载函数
 	std::cout << "test1 d3.m_data:" << d3.GetData() << std::endl;
 	d3 = d3;
+	d1 = d2 = d3;
 }
 int main()
 {
