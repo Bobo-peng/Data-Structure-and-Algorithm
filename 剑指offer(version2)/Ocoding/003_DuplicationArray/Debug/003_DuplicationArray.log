@@ -1,2 +1,8 @@
-﻿  003_DuplicationArray.cpp
-  003_DuplicationArray.vcxproj -> D:\github\Data-Structure-and-Algorithm\剑指offer(version2)\Ocoding\Debug\003_DuplicationArray.exe
+﻿  pch.cpp
+  003_DuplicationArray.cpp
+f:\【it编程参考资料】\【应用类编程】\算法\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\003_duplicationarray\003_duplicationarray.cpp(66): error C2039: “unique_ptr”: 不是“std”的成员
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(19): note: 参见“std”的声明
+f:\【it编程参考资料】\【应用类编程】\算法\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\003_duplicationarray\003_duplicationarray.cpp(66): error C2065: “unique_ptr”: 未声明的标识符
+f:\【it编程参考资料】\【应用类编程】\算法\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\003_duplicationarray\003_duplicationarray.cpp(66): error C2062: 意外的类型“int”
+f:\【it编程参考资料】\【应用类编程】\算法\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\003_duplicationarray\003_duplicationarray.cpp(69): error C2065: “tmp_arr”: 未声明的标识符
+f:\【it编程参考资料】\【应用类编程】\算法\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\003_duplicationarray\003_duplicationarray.cpp(72): error C2065: “tmp_arr”: 未声明的标识符
