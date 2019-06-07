@@ -1,0 +1,5 @@
+﻿  016_Pow.cpp
+d:\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\016_pow\016_pow.cpp(23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\016_pow\016_pow.cpp(25): warning C4554: “&”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+d:\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\016_pow\016_pow.cpp(26): warning C4244: “*=”: 从“double”转换到“int”，可能丢失数据
+  016_Pow.vcxproj -> D:\github\Data-Structure-and-Algorithm\剑指offer(version2)\Ocoding\Debug\016_Pow.exe
