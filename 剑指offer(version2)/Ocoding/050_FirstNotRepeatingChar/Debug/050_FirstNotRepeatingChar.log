@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  050_FirstNotRepeatingChar.cpp
+d:\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\050_firstnotrepeatingchar\050_firstnotrepeatingchar.cpp(12): warning C4018: “<”: 有符号/无符号不匹配
+d:\github\data-structure-and-algorithm\剑指offer(version2)\ocoding\050_firstnotrepeatingchar\050_firstnotrepeatingchar.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+  050_FirstNotRepeatingChar.vcxproj -> D:\github\Data-Structure-and-Algorithm\剑指offer(version2)\Ocoding\Debug\050_FirstNotRepeatingChar.exe
